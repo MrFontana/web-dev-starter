@@ -1,3 +1,6 @@
-let amount =  Number.parseFloat('123.12');
+let person = {
+	firstName: 'Kevin',
+	lastName: 'Fontana'
+};
 
-showMessage(amount);
+showMessage(person.firstName);
