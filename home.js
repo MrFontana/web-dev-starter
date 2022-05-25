@@ -64,4 +64,29 @@ let key = 42;
 // let secretCode = getSecretCode(2);
 // showMessage( secretCode );
 
-changePercentOff(32);
+// changePercentOff(32);
+
+// let mySymbol = Symbol();
+
+// let person = {
+// 	name: "John",
+// 	age: 32,
+// 	partTime: false,
+// 	[mySymbol]: 'secretInformation'
+// };
+
+// // person.age = 33;
+// person['age'] = 44;
+
+// showMessage(person.age);
+
+let person = {
+	name: "John",
+	age: 32,
+	partTime: false,
+	showInfo: function(realAge) {
+		showMessage(this.name + ' is ' + realAge);
+	}
+};
+
+showMessage( typeof person.showInfo );
