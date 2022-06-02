@@ -45,7 +45,7 @@ console.log(roundedCorrectly); // 2.4
 // let secretCode = getSecretCode(2);
 // showMessage( secretCode );
 
-let key = 42;
+// let key = 42;
 
 // function getSecretCode(value) {
 
@@ -80,13 +80,28 @@ let key = 42;
 
 // showMessage(person.age);
 
-let person = {
-	name: "John",
-	age: 32,
-	partTime: false,
-	showInfo: function(realAge) {
-		showMessage(this.name + ' is ' + realAge);
-	}
-};
+// let person = {
+// 	name: "John",
+// 	age: 32,
+// 	partTime: false,
+// 	showInfo: function(realAge) {
+// 		showMessage(this.name + ' is ' + realAge);
+// 	}
+// };
 
-showMessage( typeof person.showInfo );
+// showMessage( typeof person.showInfo );
+
+// const button = document.getElementById("see-review");
+
+// button.addEventListener('click', function() {
+	
+// 	const review = document.getElementById('review');
+
+// 	if (review.classList.contains('d-none')) {
+// 		review.classList.remove('d-none');
+// 		button.textContent = 'Close Review'
+// 	} else {
+// 		review.classList.add('d-none');
+// 		button.textContent = 'See Review'
+// 	}
+// });
