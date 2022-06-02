@@ -106,9 +106,9 @@ console.log(roundedCorrectly); // 2.4
 // 	}
 // });
 
-const values = ['a', 'b', 'c', 'd', 'e'];
+// const values = ['a', 'b', 'c', 'd', 'z'];
 
-console.log(Array.isArray(values));
+// console.log(Array.isArray(values));
 
 // push()
 // values.push('d');
@@ -129,6 +129,38 @@ console.log(Array.isArray(values));
 // values.splice(1, 1); // remove index
 // values.splice(1, 0, 'foo'); // a foo b c
 
-values.splice(2, 1, 'hello');
+// values.splice(2, 1, 'hello');
 
-console.log( values ); 
+// console.log( values ); 
+
+//indexOf()
+
+// console.log( values.indexOf('c') ) //2
+// console.log( values.indexOf('d') ) //-1
+
+//filter()
+
+// const set = values.filter(function(item) {
+// 	return item > 'a';
+// })
+
+//find()
+
+// const found = values.find(function(item) {
+// 	return item.length > 1;
+// });
+
+// const set = values.filter(function(item) {
+// 	console.log('item: ', item);
+// 	return item > 'b';
+// })
+
+//forEach()
+// values.forEach(function(item) {
+// 	console.log(item);
+// });
+
+// const containers = document.getElementsByClassName('container');
+// containers[0].classList.add('d-none');
+
+// console.log( containers );
