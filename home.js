@@ -164,3 +164,36 @@ console.log(roundedCorrectly); // 2.4
 // containers[0].classList.add('d-none');
 
 // console.log( containers );
+
+// Scopes and Hoisting
+// const app = {
+// 	productId: 12345,
+// 	userName: 'Joe',
+// 	orderNumber: 789
+// };
+
+//global scope
+// let productId = 12345;
+
+// function showProductId() {
+// 	// function scope 
+// 	//let productId = 12345;
+
+// 	function fix () {
+// 		// function scope
+// 		// let productId = 45678;
+// 		console.log('in fix: ', productId);
+// 	}
+
+// 	fix();
+
+// 	console.log(productId);
+// }
+
+// showProductId();
+
+// 'use strict';
+
+// let productId = 1234;
+
+// console.log(productId);
