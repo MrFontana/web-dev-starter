@@ -105,3 +105,30 @@ console.log(roundedCorrectly); // 2.4
 // 		button.textContent = 'See Review'
 // 	}
 // });
+
+const values = ['a', 'b', 'c', 'd', 'e'];
+
+console.log(Array.isArray(values));
+
+// push()
+// values.push('d');
+
+// pop()
+// const last = values.pop();
+
+//shift()
+// const first = values.shift();
+
+//unshift()
+// values.unshift('a');
+
+//slice()
+// const newValues = values.slice(1, 2);
+
+//splice()
+// values.splice(1, 1); // remove index
+// values.splice(1, 0, 'foo'); // a foo b c
+
+values.splice(2, 1, 'hello');
+
+console.log( values ); 
