@@ -204,3 +204,37 @@ function loopStringSample() {
 	}
 	console.log(letters);
 };
+
+// Break statement Example
+
+function breakSample() {
+	for (const item of _products) {
+		if (item.standardCost < 20) {
+			break;
+		}
+		console.log(JSON.stringify(item));
+	}
+};
+
+// Continue statement Example
+
+function continueSample() {
+	for (const item of _products) {
+		if (item.standardCost > 1000) {
+			continue;
+		}
+		console.log(JSON.stringify(item));
+	}
+};
+
+// Label Example ( Not a very good construct to use and not recommended, for informational purposes only )
+
+function labelSample() {
+	even:
+	for (let i = 1; i <= 10; i++) {
+		if (i % 2 == 1) {
+			continue even;		
+		}
+		console.log(i);
+	}
+};
